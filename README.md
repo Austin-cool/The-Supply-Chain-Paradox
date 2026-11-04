@@ -23,3 +23,5 @@ In "Question 2 and Question 3," you may find a Python script designed to answer 
 In "Questions 4 and 5 491 project.zip," you may find a Python script, named "brookshires_q4_q5.py," designed to answer questions 4 and 5. A PDF named "q4 and q5 explained.pdf" is also provided to highlight the findings (e.g., tables or plots) and state observations and conclusions.
 
 **R5.** Our final hypothesis and testing plan is found in "R5-narrowed-problem_and_hypotheses.md."
+
+The project data is found on the "Project data" folder.
