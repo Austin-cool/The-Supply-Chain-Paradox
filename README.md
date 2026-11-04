@@ -14,3 +14,12 @@ Topic: Supply Chain Paradox
 
 **R3.** The data cleaning Python script is found in "R3-data_cleaning.py."
 
+**R4.** The exploratory data analysis, found in "R4-Exploration" was done in three folders. In "R4-Exploration," you may find folders "Question 1," "Question 2 and Question 3," and "Questions 4 and 5 491 project.zip."
+
+In "Question 1," you may find a jupyter notebook containing the data analysis performed to answer question 1, which is in reference to the questions in "R1-problem_decision_and_questions.md."
+
+In "Question 2 and Question 3," you may find a Python script designed to answer questions 2 and 3. A jupyer notebook named "M1-visualizatons_stats_and_patterns" is also provided to highlight the findings (e.g., tables or plots) and state observations.
+
+In "Questions 4 and 5 491 project.zip," you may find a Python script, named "brookshires_q4_q5.py," designed to answer questions 4 and 5. A PDF named "q4 and q5 explained.pdf" is also provided to highlight the findings (e.g., tables or plots) and state observations and conclusions.
+
+**R5.** Our final hypothesis and testing plan is found in "R5-narrowed-problem_and_hypotheses.md."
