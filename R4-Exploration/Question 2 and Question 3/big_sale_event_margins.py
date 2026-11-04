@@ -59,14 +59,14 @@ def summarize(g):
 
 pd.set_option("display.width", 200)
 
-# Q1: lowest-margin zone during event weeks
+# Q2: lowest-margin zone during event weeks
 q1 = (df[df["is_event"]].groupby("ad_zone")
         .apply(summarize, include_groups=False)
         .sort_values("profit_margin_pct (total_profit/total_revenue)"))
 print(q1.to_string())
 print("Lowest-margin zone:", q1.index[0])
 
-# Q2: on sale vs not, per store and overall
+# Q3: on sale vs not, per store and overall
 q2_store = df.groupby(["store_id", "store_name", "on_sale"]).apply(summarize, include_groups=False)
 q2_all = df.groupby("on_sale").apply(summarize, include_groups=False)
 print(q2_store.to_string())
