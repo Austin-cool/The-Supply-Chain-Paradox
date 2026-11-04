@@ -1,1 +1,3 @@
+### R1. Problem, questions, and goals
 
+In this work, we aim to identify the root cause of a phenomenon observed at local grocery stores. In essence, the data gathered by the stores shows that, during the store's biggest sales, profit margains collapse and shelves go empty for items that are not on sale. This observation, termed the "empty shelves paradox," has led managers to conclude that sales need to be abolished. However, there may be a different reason for this phenomenon.
