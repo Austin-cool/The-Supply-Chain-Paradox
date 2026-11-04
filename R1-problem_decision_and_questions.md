@@ -8,22 +8,22 @@ To address the above problem, we first analyzed the input from the experts who r
 
 In particular, our team will answer the following questions, where questions 1-3 are concerned with profit margins, and questions 4 and 5 are concerned with product availability.
 
-**Question 1:** During a big-sale event, which department has the lowest margins?
-
-**Goal:** Understand the profit per department during sales.
-
-**Question 2:** How much profit is the store getting for products on sale?
-
-**Goal:** Understand where the profit collapse is coming from.
-
-**Question 3:** When are profit margins collapsing?
-
-**Goal:** Understand if profit collapse happens for all ad weeks or only for big sales, such as holidays.
-
-**Question 4:** How much does the truck capacity affect product shortages?
+**Question 1:** How much does the truck capacity affect product shortages?
 
 **Goal:** Understand if truck capacity affects product margins.
 
-**Question 5:** How does product availability change for products on sale and products not on sale?
+**Question 2:** During a big-sale event, which department has the lowest margins?
+
+**Goal:** Understand the profit per department during sales.
+
+**Question 3:** How much profit is the store getting for products on sale?
+
+**Goal:** Understand where the profit collapse is coming from.
+
+**Question 4:** How does product availability change for products on sale and products not on sale?
 
 **Goal:** Understand availability in reference to sales
+
+**Question 5:** When are profit margins collapsing?
+
+**Goal:** Understand if profit collapse happens for all ad weeks or only for big sales, such as holidays.
