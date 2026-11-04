@@ -4,8 +4,8 @@ During big sale weeks, shelves get emptied for too long and profits go down too 
 
 
 ## Hypotheses
-1. If delivery schedules are fixed throughout the year, then we get empty shelves during sale weeks, which causes margin colapse
+1. If delivery schedules are fixed throughout the year, then we get empty shelves during sale weeks, which causes margin colapse.
     testing plan: 
 
-2. If 
+2. If revenue drops drastically for items on sale, then profit margains during big sale days collapses.
     testing plan: 
