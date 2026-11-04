@@ -1,4 +1,11 @@
+
+# Description: This program will do a few things:
+# 1. Access the data to give statistics on the profit margins of each zone during big sale events
+# 2. Access the data to give statistics on the profit margins of each store's products when the product is and is not on sale
+
+
 import pandas as pd
+
 
 files = [
     "calendar.csv",   # events
