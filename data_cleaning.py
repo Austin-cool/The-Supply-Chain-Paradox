@@ -1,5 +1,7 @@
 import pandas as pd
 
+# We will not need to work with all of the data, so not all of the data needs to be cleaned. 
+
 prcs = pd.read_csv("prices.csv")
 prod = pd.read_csv("products.csv")
 
