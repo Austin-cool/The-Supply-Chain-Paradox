@@ -3,16 +3,16 @@
 # 1. Access the data to give statistics on the profit margins of each zone during big sale events
 # 2. Access the data to give statistics on the profit margins of each store's products when the product is and is not on sale
 
-# disclaimer: make sure you are in the "The-Supply-Chain-Paradox" directory when you run this file
+# Apologies for the bad formatting if you run this file. I will work to fix it when I have the time
 
 import pandas as pd
 
 
 files = [
-    "Project data/calendar.csv",   # events
-    "Project data/products.csv",   # unit cost and item id
-    "Project data/prices.csv",     # og sell price and marked-down sell price
-    "Project data/stores.csv"      # zones
+    "calendar.csv",   # events
+    "products.csv",   # unit cost and item id
+    "prices.csv",     # og sell price and marked-down sell price
+    "stores.csv"      # zones
 ]
 
 # open files
