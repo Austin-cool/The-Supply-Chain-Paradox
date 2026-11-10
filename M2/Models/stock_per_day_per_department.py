@@ -86,4 +86,4 @@ for store in store_ids:
 
     zero_ratio_per_store[store] = zero_rate_per_department
 
-print(zero_ratio_per_store[311])
+# print(zero_ratio_per_store[311])
