@@ -1,3 +1,6 @@
+# To run: make sure your terminal is in the "The-Supply-Chain-Paradox". Type this command: python M2/Models/combine_and_evaluate.py 
+
+
 import profit_per_day_per_department
 import stock_per_day_per_department
 import pandas as pd
@@ -5,6 +8,7 @@ import pandas as pd
 store_table = pd.read_csv("M2/Models/store_sale_day_table.csv")
 store_table["date"] = profit_per_day_per_department.parse_dates(store_table["date"])
 store_table.groupby(["date", "store_id"], observed=True)["sale_week_type"]
+store_table["sale_week_type"] = store_table["sale_week_type"].map({"Low-promotion": 0, "Other ad week": 1, "Candidate big-sale": 2})
 
 merged_dict = {}
 
