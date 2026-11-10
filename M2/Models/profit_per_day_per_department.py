@@ -1,4 +1,4 @@
-# Important: When you run this file, make sure you run it from the The-Supply-Chain-Paradox
+# Important: When you run this file, make sure you run it from the The-Supply-Chain-Paradox directory
 
 
 import pandas as pd
