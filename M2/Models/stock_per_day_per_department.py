@@ -1,10 +1,10 @@
 # Obtain necessary datasets
 import pandas as pd
 
-Calendar = pd.read_csv('calendar.csv')
-Inventory = pd.read_csv('inventory.csv.gz')
-Products = pd.read_csv('products.csv')
-Stores = pd.read_csv('stores.csv')
+Calendar = pd.read_csv('Project data/calendar.csv')
+Inventory = pd.read_csv('Project data/inventory.csv.gz')
+Products = pd.read_csv('Project data/products.csv')
+Stores = pd.read_csv('Project data/stores.csv')
 
 # Create a list with the item ids
 item_ids = [i for i in Products['item_id']]
@@ -86,4 +86,4 @@ for store in store_ids:
 
     zero_ratio_per_store[store] = zero_rate_per_department
 
-zero_ratio_per_store[311]
+print(zero_ratio_per_store[311])
