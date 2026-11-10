@@ -66,51 +66,57 @@ merged["profit"] = (merged["sell_price"] - merged["unit_cost"]) * merged["unit_s
 
 profit_by_dept_day = merged.groupby(["date", "department"], observed=True)["profit"].sum().reset_index()
 
-# print(profit_by_dept_day.head(50))
-
-# # 1. overall count of missing values
-# n_missing = merged["sell_price"].isna().sum()
-# print(f"Missing sell_price: {n_missing} of {len(merged)} rows ({n_missing / len(merged):.4%})")
-
-# # 2. also check the source file, in case the blanks are already in prices.csv
-# print(f"Missing in prices.csv itself: {prcs['sell_price'].isna().sum()}")
-# print(f"Zero or negative prices in prices.csv: {(prcs['sell_price'] <= 0).sum()}")
 
 
 
-daily = merged.groupby("date")["profit"].sum()
-daily.plot(figsize=(12, 5), title="Total profit per day")
-plt.ylabel("Profit ($)")
-plt.show()
 
 
-# profit per day, one column per department
-dept_daily = (
-    merged.groupby(["date", "department"], observed=True)["profit"]
+
+
+
+
+# profit per day, per store, one column per department
+store_dept_daily = (
+    merged.groupby(["store_id", "date", "department"], observed=True)["profit"]
     .sum()
     .unstack("department")
 )
 
-# 1. all departments on one chart (7-day average so the lines are readable)
-dept_daily.rolling(7, center=True).mean().plot(figsize=(13, 6), title="Profit per day by department (7-day average)")
-plt.ylabel("Profit ($)")
-plt.legend(loc="upper left", bbox_to_anchor=(1, 1))
-plt.tight_layout()
-plt.show()
+stores = sorted(merged["store_id"].unique())
+print(f"Plotting {len(stores)} stores: {stores}")
 
 
-# compare each store's changes in profit
-# def compare(day, by, k=(-3, -2, -1, 1, 2, 3)):
-#     day = pd.Timestamp(day)
-#     base_days = [day + pd.Timedelta(days=7 * i) for i in k]
-#     on   = merged[merged["date"] == day].groupby(by, observed=True)["profit"].sum()
-#     base = merged[merged["date"].isin(base_days)].groupby(by, observed=True)["profit"].sum() / len(base_days)
-#     out = pd.DataFrame({"that_day": on, "typical": base})
-#     out["diff"]  = out["that_day"] - out["typical"]
-#     out["ratio"] = out["that_day"] / out["typical"]
-#     return out.sort_values("diff")
+store_dict = {}
 
-# for d in ["2025-03-08", "2025-07-06", "2024-11-28", "2025-11-27"]:
-#     print(f"\n=== {d} ===")
-#     print(compare(d, "store_id"))
-#     print(compare(d, "department"))
+for store in stores:
+    df = store_dept_daily.loc[store].add_suffix("_profit")          # index = date, columns = departments
+    store_dict[store] = df
+
+
+    ### this is just to plot each table
+    # smooth = df.rolling(7, center=True).mean()
+
+    # ax = smooth.plot(figsize=(13, 6), title=f"Store {store}: profit per day by department (7-day average)")
+    # # smooth.sum(axis=1, min_count=1).plot(ax=ax, color="black", linewidth=2.5, label="Store total")
+
+    # ax.set_ylabel("Profit ($)")
+    # ax.legend(loc="upper left", bbox_to_anchor=(1, 1))
+    # plt.tight_layout()
+    # plt.show()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
