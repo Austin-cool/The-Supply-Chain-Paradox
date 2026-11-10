@@ -83,7 +83,6 @@ store_dept_daily = (
 )
 
 stores = sorted(merged["store_id"].unique())
-print(f"Plotting {len(stores)} stores: {stores}")
 
 
 store_dict = {}
