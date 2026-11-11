@@ -1,9 +1,9 @@
 # To run: make sure your terminal is in the "The-Supply-Chain-Paradox". Type this command: python M2/Models/combine_and_evaluate.py 
 
-
+import matplotlib.pyplot as plt
+import pandas as pd
 import profit_per_day_per_department
 import stock_per_day_per_department
-import pandas as pd
 
 store_table = pd.read_csv("M2/Models/store_sale_day_table.csv")
 store_table["date"] = profit_per_day_per_department.parse_dates(store_table["date"])
@@ -25,5 +25,25 @@ for store in stock_per_day_per_department.store_ids:
     )
     merged_dict[store] = merged
 
+
 for store in stock_per_day_per_department.store_ids:
-    print(merged_dict[store])
+    df = merged_dict[store].copy()
+    df["day_number"] = (df["date"] - df["date"].min()).dt.days   # lets date take part in the correlation
+    corr = df.drop(columns="date").corr()                        # 20 x 20
+
+    fig, ax = plt.subplots(figsize=(13, 11))
+    im = ax.imshow(corr, cmap="coolwarm", vmin=-1, vmax=1)
+
+    ax.set_xticks(range(len(corr)))
+    ax.set_xticklabels(corr.columns, rotation=90)
+    ax.set_yticks(range(len(corr)))
+    ax.set_yticklabels(corr.columns)
+
+    for i in range(len(corr)):
+        for j in range(len(corr)):
+            ax.text(j, i, f"{corr.iloc[i, j]:.2f}", ha="center", va="center", fontsize=6)
+
+    fig.colorbar(im, ax=ax)
+    ax.set_title(f"Store {store}: correlation matrix")
+    plt.tight_layout()
+    plt.show()
