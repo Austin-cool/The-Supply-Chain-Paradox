@@ -6,7 +6,11 @@ AI Disclosure: Generative A was used to help make the Python programs used to an
 
 Topic: Supply Chain Paradox
 
+The project data is found on the "Project data" folder.
+
 ### Guide to files below
+
+### Milestone 1
 
 **R1.** The problem, questions, and goals may be found in the file named "R1-problem_decision_and_questions.md."
 
@@ -24,4 +28,6 @@ In "Questions 4 and 5 491 project.zip," you may find a Python script, named "bro
 
 **R5.** Our final hypothesis and testing plan is found in "R5-narrowed-problem_and_hypotheses.md."
 
-The project data is found on the "Project data" folder.
+### Milestone 2
+
+All the experiments performed for Milestone 2 are found in the folder M2. Here, you may find a pdf named "M2 - discussion.pdf" with our findings, including hypothesis, testing strategy, feature selection, data split, validation method, and findings.
