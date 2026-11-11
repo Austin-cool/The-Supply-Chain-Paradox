@@ -2,7 +2,7 @@
 
 
 
-AI Disclosure, AI ways used to help create these store\_sale\_type\_lookup.py,  sale type day table.py, make\_all\_variables\_mi\_matrix\_updated.py, compare\_stores\_stockouts\_and\_profit.py
+AI Disclosure, AI ways used to help create these store\_sale\_type\_lookup.py,  sale type day table.py, make\_all\_variables\_mi\_matrix\_updated.py, profit\_per\_day\_per\_department, compare\_stores\_stockouts\_and\_profit.py
 
 
 
