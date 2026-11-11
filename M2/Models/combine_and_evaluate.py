@@ -47,3 +47,11 @@ for store in stock_per_day_per_department.store_ids:
     ax.set_title(f"Store {store}: correlation matrix")
     plt.tight_layout()
     plt.show()
+
+# --- Save as SVG ---
+    fig.savefig(
+        f"Profit vs sale type per department in {store}.svg",
+        bbox_inches='tight'
+    )
+    
+    plt.close(fig)
