@@ -1,0 +1,4 @@
+sale_week_type,store_groups_compared,equal_stratum_mean_profit_low,equal_stratum_mean_profit_high,equal_stratum_mean_profit_difference_high_minus_low,equal_stratum_mean_zero_stock_low_pct,equal_stratum_mean_zero_stock_high_pct
+Candidate big-sale,10,5254.03190379801,4741.931121213466,-512.1007825845427,0.0183027128133715,11.724529193238414
+Low-promotion,10,5852.832846852245,5688.836847889606,-163.995998962639,0.0,5.338848954382108
+Other ad week,10,5773.288927290108,5409.5854823967475,-363.70344489336156,0.0036065033804734206,9.344061859458343

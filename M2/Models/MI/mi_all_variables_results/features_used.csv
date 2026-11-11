@@ -1,0 +1,26 @@
+feature,origin,categories,encoding
+sale_week_type,original CSV,3,categorical
+store_id,original CSV,10,categorical
+year,derived,2,categorical
+month,derived,12,categorical
+weekday,derived,7,categorical
+Bakery_profit,original CSV,5,up to 5 quantiles
+Beverages_profit,original CSV,5,up to 5 quantiles
+Dairy_profit,original CSV,5,up to 5 quantiles
+Frozen_profit,original CSV,5,up to 5 quantiles
+Grocery_profit,original CSV,5,up to 5 quantiles
+Health & Beauty_profit,original CSV,5,up to 5 quantiles
+Household_profit,original CSV,5,up to 5 quantiles
+Meat & Seafood_profit,original CSV,5,up to 5 quantiles
+Produce_profit,original CSV,5,up to 5 quantiles
+zero_ratio_Beverages,original CSV,5,zero + positive quantiles
+zero_ratio_Grocery,original CSV,5,zero + positive quantiles
+zero_ratio_Meat&Seafood,original CSV,5,zero + positive quantiles
+zero_ratio_Health&Beauty,original CSV,5,zero + positive quantiles
+zero_ratio_Produce,original CSV,5,zero + positive quantiles
+zero_ratio_Frozen,original CSV,5,zero + positive quantiles
+zero_ratio_Bakery,original CSV,5,zero + positive quantiles
+zero_ratio_Household,original CSV,5,zero + positive quantiles
+zero_ratio_Dairy,original CSV,5,zero + positive quantiles
+total_department_profit,derived,5,up to 5 quantiles
+mean_department_zero_ratio,derived,5,zero + positive quantiles

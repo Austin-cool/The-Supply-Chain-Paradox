@@ -1,0 +1,301 @@
+variable_1,variable_2,normalized_MI
+zero_ratio_Produce,zero_ratio_Dairy,0.6820609618617336
+zero_ratio_Bakery,zero_ratio_Dairy,0.65584625655143
+zero_ratio_Produce,zero_ratio_Bakery,0.6526991944054985
+zero_ratio_Meat&Seafood,zero_ratio_Produce,0.6430654039292674
+zero_ratio_Meat&Seafood,zero_ratio_Dairy,0.6422441279159893
+zero_ratio_Meat&Seafood,zero_ratio_Bakery,0.631384307743453
+zero_ratio_Frozen,mean_department_zero_ratio,0.5719253751795222
+zero_ratio_Health&Beauty,zero_ratio_Household,0.5687494056158807
+zero_ratio_Beverages,mean_department_zero_ratio,0.5348363286291352
+zero_ratio_Dairy,mean_department_zero_ratio,0.527571517876208
+Produce_profit,total_department_profit,0.524194347461385
+zero_ratio_Produce,mean_department_zero_ratio,0.5097865590614283
+zero_ratio_Meat&Seafood,mean_department_zero_ratio,0.5023524095349837
+zero_ratio_Grocery,mean_department_zero_ratio,0.4954839910105791
+zero_ratio_Bakery,mean_department_zero_ratio,0.49373425909857294
+zero_ratio_Frozen,zero_ratio_Dairy,0.4931620845170185
+zero_ratio_Meat&Seafood,zero_ratio_Frozen,0.48537149936990504
+zero_ratio_Produce,zero_ratio_Frozen,0.4801671635836177
+Frozen_profit,total_department_profit,0.47946211842429803
+zero_ratio_Frozen,zero_ratio_Bakery,0.46848111572842827
+zero_ratio_Beverages,zero_ratio_Frozen,0.4628592992412938
+Dairy_profit,total_department_profit,0.46154799718355266
+Meat & Seafood_profit,total_department_profit,0.4597447337742783
+zero_ratio_Beverages,zero_ratio_Grocery,0.4410497972697605
+zero_ratio_Grocery,zero_ratio_Dairy,0.4343646388925398
+Bakery_profit,total_department_profit,0.43290197642121303
+zero_ratio_Grocery,zero_ratio_Meat&Seafood,0.4317674889582422
+Grocery_profit,total_department_profit,0.4313342765033448
+zero_ratio_Grocery,zero_ratio_Produce,0.42858118280245633
+zero_ratio_Grocery,zero_ratio_Bakery,0.42200381633638656
+Bakery_profit,Grocery_profit,0.4163074709426906
+zero_ratio_Household,mean_department_zero_ratio,0.40520136977566484
+zero_ratio_Grocery,zero_ratio_Frozen,0.40265515378397226
+zero_ratio_Health&Beauty,mean_department_zero_ratio,0.3953660393601513
+Beverages_profit,total_department_profit,0.38373180017735564
+zero_ratio_Beverages,zero_ratio_Meat&Seafood,0.38343020192101746
+zero_ratio_Beverages,zero_ratio_Dairy,0.38081728844112966
+zero_ratio_Beverages,zero_ratio_Produce,0.37420424415664577
+zero_ratio_Grocery,zero_ratio_Household,0.37240292789425355
+zero_ratio_Grocery,zero_ratio_Health&Beauty,0.3681283515030951
+zero_ratio_Beverages,zero_ratio_Bakery,0.36508656616641233
+Meat & Seafood_profit,Produce_profit,0.36380073130902735
+Frozen_profit,Produce_profit,0.361028035812333
+zero_ratio_Frozen,zero_ratio_Household,0.35593138096900223
+zero_ratio_Beverages,zero_ratio_Household,0.354675786491977
+Bakery_profit,Dairy_profit,0.3537739486704454
+Beverages_profit,Meat & Seafood_profit,0.3535043635865245
+Frozen_profit,Meat & Seafood_profit,0.3500129147175001
+Dairy_profit,Grocery_profit,0.34752244651707265
+zero_ratio_Health&Beauty,zero_ratio_Frozen,0.3462298993130849
+zero_ratio_Beverages,zero_ratio_Health&Beauty,0.3440880892990065
+Dairy_profit,Meat & Seafood_profit,0.33362663955023
+Grocery_profit,Produce_profit,0.3299712428800185
+Dairy_profit,Produce_profit,0.3294647385766444
+Beverages_profit,Frozen_profit,0.3283563329087242
+Bakery_profit,Frozen_profit,0.3252452344340136
+Beverages_profit,Produce_profit,0.3211742796433122
+Bakery_profit,Produce_profit,0.317800789499886
+Frozen_profit,Grocery_profit,0.3083567193682834
+sale_week_type,year,0.28785440473356727
+Dairy_profit,Frozen_profit,0.2876605465146857
+Beverages_profit,Dairy_profit,0.2814650792386268
+Household_profit,total_department_profit,0.2803512607440829
+Frozen_profit,Household_profit,0.2764329660307091
+Grocery_profit,Health & Beauty_profit,0.2705527542256937
+zero_ratio_Meat&Seafood,zero_ratio_Household,0.2683985503635376
+zero_ratio_Household,zero_ratio_Dairy,0.26633801844969524
+zero_ratio_Meat&Seafood,zero_ratio_Health&Beauty,0.2617969338350707
+Bakery_profit,Meat & Seafood_profit,0.2617435719028011
+zero_ratio_Produce,zero_ratio_Household,0.25783696123311023
+zero_ratio_Health&Beauty,zero_ratio_Dairy,0.25475447768852466
+zero_ratio_Bakery,zero_ratio_Household,0.25422022546880313
+Grocery_profit,Household_profit,0.25359997086334857
+Grocery_profit,Meat & Seafood_profit,0.2513138542557074
+zero_ratio_Health&Beauty,zero_ratio_Produce,0.2486970491443332
+Bakery_profit,Household_profit,0.24592218926803155
+zero_ratio_Health&Beauty,zero_ratio_Bakery,0.24524444201541398
+Household_profit,Produce_profit,0.22483749127312103
+Bakery_profit,Health & Beauty_profit,0.21741720414725282
+Bakery_profit,Beverages_profit,0.20796099580046118
+Health & Beauty_profit,total_department_profit,0.2004547810778279
+Health & Beauty_profit,Household_profit,0.1985605347280806
+Household_profit,Meat & Seafood_profit,0.19439198873646876
+Beverages_profit,Grocery_profit,0.19429096177290836
+Dairy_profit,Household_profit,0.18755491815114245
+Beverages_profit,Household_profit,0.18216840449178515
+Frozen_profit,Health & Beauty_profit,0.1738314615127934
+sale_week_type,month,0.17248766382427017
+Health & Beauty_profit,Produce_profit,0.16533822850607036
+Dairy_profit,Health & Beauty_profit,0.1542720583317335
+year,month,0.141867778015066
+Health & Beauty_profit,Meat & Seafood_profit,0.12263907176649498
+store_id,Grocery_profit,0.11027764884807446
+store_id,Produce_profit,0.10668503345158799
+Beverages_profit,zero_ratio_Produce,0.10534533502275141
+Beverages_profit,zero_ratio_Bakery,0.10515024559775091
+Beverages_profit,zero_ratio_Meat&Seafood,0.10391322799539261
+store_id,total_department_profit,0.10385318052961534
+store_id,Dairy_profit,0.10347687846263261
+store_id,Bakery_profit,0.1016284771164494
+Beverages_profit,zero_ratio_Dairy,0.10068139984198086
+weekday,Grocery_profit,0.09393211103726537
+Dairy_profit,zero_ratio_Bakery,0.09343865779523573
+Dairy_profit,zero_ratio_Produce,0.09268667986424678
+store_id,Household_profit,0.09138566038847568
+store_id,Frozen_profit,0.09071224799018521
+Dairy_profit,zero_ratio_Meat&Seafood,0.09045511458173057
+Beverages_profit,Health & Beauty_profit,0.08893946057425493
+Dairy_profit,zero_ratio_Dairy,0.0884984106928125
+weekday,Bakery_profit,0.08597381979419365
+weekday,Health & Beauty_profit,0.08523142926398654
+weekday,Household_profit,0.08515203944480151
+weekday,total_department_profit,0.08450116706967725
+Beverages_profit,mean_department_zero_ratio,0.08285825842365901
+Beverages_profit,zero_ratio_Grocery,0.08197552268503618
+weekday,Frozen_profit,0.08192809353078825
+store_id,Beverages_profit,0.07822865266903559
+Beverages_profit,zero_ratio_Frozen,0.07756491593797882
+weekday,Produce_profit,0.07661003946243189
+weekday,Meat & Seafood_profit,0.07382880989213282
+store_id,Health & Beauty_profit,0.07364170978023471
+store_id,Meat & Seafood_profit,0.07079094002805567
+Meat & Seafood_profit,zero_ratio_Bakery,0.06973003054262626
+Meat & Seafood_profit,zero_ratio_Meat&Seafood,0.06911047543291812
+Meat & Seafood_profit,zero_ratio_Produce,0.06872506517375544
+Beverages_profit,zero_ratio_Beverages,0.06669536934093018
+Dairy_profit,mean_department_zero_ratio,0.06468452309430713
+Meat & Seafood_profit,zero_ratio_Dairy,0.06456639407746792
+Dairy_profit,zero_ratio_Frozen,0.06424603498478408
+zero_ratio_Bakery,total_department_profit,0.05737239123072002
+Beverages_profit,zero_ratio_Health&Beauty,0.057080901407116295
+zero_ratio_Produce,total_department_profit,0.056128745247184045
+Dairy_profit,zero_ratio_Grocery,0.055997753673849904
+zero_ratio_Meat&Seafood,total_department_profit,0.05579453402017364
+weekday,Dairy_profit,0.05547381839344299
+Beverages_profit,zero_ratio_Household,0.05412917037168821
+zero_ratio_Dairy,total_department_profit,0.05229013464659002
+zero_ratio_Grocery,total_department_profit,0.049261558048501956
+Meat & Seafood_profit,mean_department_zero_ratio,0.048305962597401025
+Meat & Seafood_profit,zero_ratio_Grocery,0.04629073201533027
+total_department_profit,mean_department_zero_ratio,0.04604825963667721
+Produce_profit,zero_ratio_Produce,0.04517047569316712
+Meat & Seafood_profit,zero_ratio_Frozen,0.044911571087038644
+Produce_profit,zero_ratio_Bakery,0.0448232188447072
+month,zero_ratio_Frozen,0.04416163315748621
+month,mean_department_zero_ratio,0.044038982442720274
+month,Beverages_profit,0.043062287155018704
+Produce_profit,zero_ratio_Meat&Seafood,0.04285647846407909
+zero_ratio_Frozen,total_department_profit,0.04284231221090242
+month,zero_ratio_Household,0.04209127602387037
+Dairy_profit,zero_ratio_Beverages,0.042029106959301586
+month,zero_ratio_Beverages,0.04178767125863626
+month,zero_ratio_Health&Beauty,0.04158979514210561
+month,zero_ratio_Dairy,0.041375871756506276
+Produce_profit,zero_ratio_Dairy,0.040392729683474224
+month,zero_ratio_Grocery,0.03979197565396744
+weekday,Beverages_profit,0.03961993198188894
+Produce_profit,zero_ratio_Grocery,0.03953947091742254
+month,zero_ratio_Produce,0.03797916326477711
+Produce_profit,mean_department_zero_ratio,0.03699370229215434
+month,zero_ratio_Bakery,0.036916081543229035
+zero_ratio_Household,total_department_profit,0.0361062546172466
+Dairy_profit,zero_ratio_Health&Beauty,0.03587399280737737
+zero_ratio_Health&Beauty,total_department_profit,0.03572350561071521
+Dairy_profit,zero_ratio_Household,0.03552343833390292
+month,zero_ratio_Meat&Seafood,0.03534657232078369
+Produce_profit,zero_ratio_Frozen,0.03314656447279351
+sale_week_type,Beverages_profit,0.03255813602418495
+weekday,zero_ratio_Household,0.032041993447681195
+Produce_profit,zero_ratio_Health&Beauty,0.031318258635766275
+Frozen_profit,zero_ratio_Grocery,0.03042456230483485
+Meat & Seafood_profit,zero_ratio_Household,0.030373429180785987
+weekday,zero_ratio_Grocery,0.03023029750951467
+zero_ratio_Beverages,total_department_profit,0.029974046563225408
+Meat & Seafood_profit,zero_ratio_Health&Beauty,0.029930977013532842
+weekday,zero_ratio_Beverages,0.02991222671355156
+Produce_profit,zero_ratio_Household,0.0295612682848625
+Meat & Seafood_profit,zero_ratio_Beverages,0.029529509738536627
+weekday,zero_ratio_Health&Beauty,0.02903151116729819
+Grocery_profit,zero_ratio_Grocery,0.028636601364288087
+Bakery_profit,zero_ratio_Bakery,0.02847669394591482
+Frozen_profit,zero_ratio_Bakery,0.028189349580409584
+weekday,mean_department_zero_ratio,0.027797459463217905
+Frozen_profit,zero_ratio_Health&Beauty,0.027366444819709936
+Frozen_profit,zero_ratio_Frozen,0.027000406324983843
+Frozen_profit,zero_ratio_Produce,0.026578831205054332
+Frozen_profit,zero_ratio_Meat&Seafood,0.026437146742155717
+Frozen_profit,zero_ratio_Household,0.02593213746663028
+Frozen_profit,mean_department_zero_ratio,0.025732437777965987
+Frozen_profit,zero_ratio_Dairy,0.024912335016506627
+weekday,zero_ratio_Meat&Seafood,0.02480943388342867
+Bakery_profit,zero_ratio_Produce,0.02444123615287185
+Bakery_profit,zero_ratio_Meat&Seafood,0.02443132920339854
+Bakery_profit,zero_ratio_Grocery,0.023660772080984646
+weekday,zero_ratio_Produce,0.02358910527236401
+sale_week_type,Meat & Seafood_profit,0.023203684835978965
+Bakery_profit,mean_department_zero_ratio,0.022797217986643664
+Produce_profit,zero_ratio_Beverages,0.022154181973918698
+Bakery_profit,zero_ratio_Dairy,0.02202420115625918
+weekday,zero_ratio_Bakery,0.021994849507173328
+weekday,zero_ratio_Dairy,0.021962047918305663
+Household_profit,zero_ratio_Household,0.021339539302528607
+Bakery_profit,zero_ratio_Frozen,0.021208549122750366
+month,Frozen_profit,0.02026077274997786
+Health & Beauty_profit,zero_ratio_Health&Beauty,0.02014523866067821
+Grocery_profit,zero_ratio_Health&Beauty,0.020069179312216214
+Household_profit,zero_ratio_Health&Beauty,0.02002029399907209
+Grocery_profit,zero_ratio_Household,0.019721336014614
+month,Meat & Seafood_profit,0.01969995839229965
+Health & Beauty_profit,zero_ratio_Household,0.019456904739970745
+sale_week_type,Dairy_profit,0.01942768852040071
+Grocery_profit,zero_ratio_Bakery,0.01865181677337784
+sale_week_type,zero_ratio_Produce,0.01847293106053391
+weekday,zero_ratio_Frozen,0.018230212701566117
+Grocery_profit,mean_department_zero_ratio,0.018001407686798965
+Bakery_profit,zero_ratio_Health&Beauty,0.017829614929648737
+Grocery_profit,zero_ratio_Meat&Seafood,0.017619813634077542
+month,Produce_profit,0.017268555350791942
+Grocery_profit,zero_ratio_Frozen,0.016980199102936334
+Grocery_profit,zero_ratio_Produce,0.01696819793591218
+Bakery_profit,zero_ratio_Household,0.01677603552362994
+Grocery_profit,zero_ratio_Dairy,0.016539374597271644
+Frozen_profit,zero_ratio_Beverages,0.0164223116875035
+month,Health & Beauty_profit,0.016209202636834053
+Grocery_profit,zero_ratio_Beverages,0.016103040308031596
+sale_week_type,zero_ratio_Meat&Seafood,0.015892029874591714
+sale_week_type,zero_ratio_Bakery,0.015820071955451646
+Household_profit,zero_ratio_Grocery,0.01509273309117567
+sale_week_type,Frozen_profit,0.015038195721283122
+Bakery_profit,zero_ratio_Beverages,0.014960850193780026
+sale_week_type,zero_ratio_Dairy,0.014879914421083685
+Health & Beauty_profit,zero_ratio_Grocery,0.014298962308116649
+month,Dairy_profit,0.012955171213793167
+sale_week_type,total_department_profit,0.012573996186315316
+month,total_department_profit,0.012353100193834994
+month,Grocery_profit,0.012279632318508623
+Health & Beauty_profit,zero_ratio_Frozen,0.011175347842171383
+month,Household_profit,0.011127638117764113
+month,Bakery_profit,0.010170830315513796
+Health & Beauty_profit,zero_ratio_Beverages,0.009812297739675683
+sale_week_type,mean_department_zero_ratio,0.009472747423996746
+year,zero_ratio_Frozen,0.00907971306768775
+Household_profit,mean_department_zero_ratio,0.00895232234184288
+sale_week_type,zero_ratio_Frozen,0.008872973172904523
+Household_profit,zero_ratio_Frozen,0.00869476631594873
+Health & Beauty_profit,mean_department_zero_ratio,0.008678574214904651
+store_id,zero_ratio_Health&Beauty,0.00789462843019017
+sale_week_type,Bakery_profit,0.007715386340031892
+Household_profit,zero_ratio_Beverages,0.007486375543998327
+Health & Beauty_profit,zero_ratio_Bakery,0.0070990548241462205
+sale_week_type,Household_profit,0.007055101681647178
+year,zero_ratio_Beverages,0.006845659708448764
+year,mean_department_zero_ratio,0.006427430872480978
+Health & Beauty_profit,zero_ratio_Dairy,0.006180050322190809
+store_id,zero_ratio_Household,0.005963414357590142
+Health & Beauty_profit,zero_ratio_Meat&Seafood,0.005919710226801547
+sale_week_type,zero_ratio_Health&Beauty,0.005784390687030076
+Household_profit,zero_ratio_Bakery,0.005765204790311429
+Health & Beauty_profit,zero_ratio_Produce,0.005581982165783621
+Household_profit,zero_ratio_Meat&Seafood,0.0055550708023705975
+store_id,zero_ratio_Grocery,0.005455204815927783
+year,Health & Beauty_profit,0.005382078104708849
+year,Beverages_profit,0.005317628105698756
+Household_profit,zero_ratio_Dairy,0.005080179447461953
+store_id,zero_ratio_Frozen,0.005022918408210032
+Household_profit,zero_ratio_Produce,0.004818885152843089
+sale_week_type,Produce_profit,0.004794084224730355
+store_id,zero_ratio_Beverages,0.004548567199690796
+sale_week_type,zero_ratio_Beverages,0.004546038820439462
+store_id,zero_ratio_Dairy,0.004194676464358186
+year,Grocery_profit,0.004154839770554439
+sale_week_type,Grocery_profit,0.004123642934288283
+sale_week_type,zero_ratio_Grocery,0.004078176237510356
+store_id,zero_ratio_Produce,0.004053320612026655
+sale_week_type,zero_ratio_Household,0.0040153384326836235
+store_id,mean_department_zero_ratio,0.0036558294322657165
+store_id,zero_ratio_Meat&Seafood,0.0036055557969206023
+store_id,zero_ratio_Bakery,0.003502326849072625
+year,zero_ratio_Bakery,0.0034178647627236603
+year,zero_ratio_Dairy,0.0032852190286013936
+year,Bakery_profit,0.0031020976918595547
+year,Dairy_profit,0.002891582189553579
+year,zero_ratio_Meat&Seafood,0.0027925808352835604
+year,zero_ratio_Produce,0.002612084936679383
+year,zero_ratio_Household,0.0022597626050007524
+month,weekday,0.0022269198633782677
+year,Household_profit,0.002214225614597655
+year,zero_ratio_Grocery,0.0020509118361340573
+sale_week_type,Health & Beauty_profit,0.0017338971236406113
+year,Produce_profit,0.0012395495157961687
+year,Frozen_profit,0.001111953308794796
+year,zero_ratio_Health&Beauty,0.0009630350308845687
+year,Meat & Seafood_profit,0.0009210831589531103
+year,total_department_profit,0.00046047918049077263
+sale_week_type,store_id,0.0002977704485628773
+year,weekday,0.0
+store_id,weekday,0.0
+store_id,month,0.0
+store_id,year,0.0
+sale_week_type,weekday,0.0

@@ -1,0 +1,31 @@
+variable_1,variable_2,question,normalized_MI
+sale_week_type,zero_ratio_Beverages,Promotion type vs. Beverages stockouts,0.004546
+zero_ratio_Beverages,Beverages_profit,Beverages stockouts vs. Beverages profit,0.066695
+sale_week_type,zero_ratio_Grocery,Promotion type vs. Grocery stockouts,0.004078
+zero_ratio_Grocery,Grocery_profit,Grocery stockouts vs. Grocery profit,0.028637
+sale_week_type,zero_ratio_Meat&Seafood,Promotion type vs. Meat&Seafood stockouts,0.015892
+zero_ratio_Meat&Seafood,Meat & Seafood_profit,Meat&Seafood stockouts vs. Meat&Seafood profit,0.06911
+sale_week_type,zero_ratio_Health&Beauty,Promotion type vs. Health&Beauty stockouts,0.005784
+zero_ratio_Health&Beauty,Health & Beauty_profit,Health&Beauty stockouts vs. Health&Beauty profit,0.020145
+sale_week_type,zero_ratio_Produce,Promotion type vs. Produce stockouts,0.018473
+zero_ratio_Produce,Produce_profit,Produce stockouts vs. Produce profit,0.04517
+sale_week_type,zero_ratio_Frozen,Promotion type vs. Frozen stockouts,0.008873
+zero_ratio_Frozen,Frozen_profit,Frozen stockouts vs. Frozen profit,0.027
+sale_week_type,zero_ratio_Bakery,Promotion type vs. Bakery stockouts,0.01582
+zero_ratio_Bakery,Bakery_profit,Bakery stockouts vs. Bakery profit,0.028477
+sale_week_type,zero_ratio_Household,Promotion type vs. Household stockouts,0.004015
+zero_ratio_Household,Household_profit,Household stockouts vs. Household profit,0.02134
+sale_week_type,zero_ratio_Dairy,Promotion type vs. Dairy stockouts,0.01488
+zero_ratio_Dairy,Dairy_profit,Dairy stockouts vs. Dairy profit,0.088498
+sale_week_type,Bakery_profit,Promotion type vs. Bakery profit,0.007715
+sale_week_type,Beverages_profit,Promotion type vs. Beverages profit,0.032558
+sale_week_type,Dairy_profit,Promotion type vs. Dairy profit,0.019428
+sale_week_type,Frozen_profit,Promotion type vs. Frozen profit,0.015038
+sale_week_type,Grocery_profit,Promotion type vs. Grocery profit,0.004124
+sale_week_type,Health & Beauty_profit,Promotion type vs. Health & Beauty profit,0.001734
+sale_week_type,Household_profit,Promotion type vs. Household profit,0.007055
+sale_week_type,Meat & Seafood_profit,Promotion type vs. Meat & Seafood profit,0.023204
+sale_week_type,Produce_profit,Promotion type vs. Produce profit,0.004794
+sale_week_type,mean_department_zero_ratio,Promotion type vs. average department stockouts,0.009473
+mean_department_zero_ratio,total_department_profit,Average stockouts vs. total profit,0.046048
+sale_week_type,total_department_profit,Promotion type vs. total profit,0.012574
